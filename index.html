@@ -9,20 +9,22 @@
 <body>
 	<!-- Header -->
 	<header>
-		<h1>My Portfolio Site</h1>
+		<h1 id="header_">My Portfolio Site</h1>
 		<nav>
 			<a href="#about_section">About Me</a>
 			<a href="#skills_section">Skills</a>
 			<a href="#gallery_section">Gallery</a>
+			<a href="#links_section">Useful Links</a>
 			<a href="#testimonials_section">Testimonials</a>
 			<a href="#comments_section">Leave a comment</a>
 			<a href="#contact_section">Find Me</a>
 		</nav>
 	</header>
 	<hr>
+
 	<!-- Presentation -->
-	<section>
-		<h2 id="about_section">About Me</h2>
+	<section id="about_section">
+		<h2>About Me</h2>
 		<p>
 			My name is Mike and I am a programmer. <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit omnis magni similique earum exercitationem est delectus voluptas quidem laboriosam aliquam, recusandae qui laborum minima explicabo incidunt commodi rerum quam!</span>
 			<span>Libero facilis deserunt quia, ut dolorem qui nobis, totam ab id fuga pariatur consequuntur tenetur, architecto officia fugiat voluptatum ducimus laudantium unde sint rerum error! Nobis ut, labore possimus alias?</span>
@@ -30,9 +32,10 @@
 		</p>
 	</section>
 	<hr>
+
 	<!-- My Skills -->
-	<section>
-		<h2 id="skills_section">My Skills</h2>
+	<section id="skills_section">
+		<h2>My Skills</h2>
 		<ul>
 			<li>Java</li>
 			<li>Javascript</li>
@@ -42,31 +45,45 @@
 		</ul>
 	</section>
 	<hr>
+
 	<!-- Images -->
-	<section>
-		<h2 id="gallery_section">Gallery</h2>
+	<section id="gallery_section">
+		<h2>Gallery</h2>
 		<figure>
 			<a href=""></a>
-			<img src="images/blake-connally-373084.jpg" alt="Computer" width="500" height="350">
+			<img src="images/1.jpg" alt="Computer" width="500" height="350">
 			<figcaption>An image of a computer...</figcaption>
 		</figure>
 		<figure>
-			<img src="images/emile-perron-190221.jpg" alt="Computer" width="500" height="350">
+			<img src="images/2.jpg" alt="Computer" width="500" height="350">
 			<figcaption>An image of a computer...</figcaption>
 		</figure>
 		<figure>
-			<img src="images/luca-bravo-217276.jpg" alt="Computer" width="500" height="350">
+			<img src="images/3.jpg" alt="Computer" width="500" height="350">
 			<figcaption>An image of code...</figcaption>
 		</figure>
 		<figure>
-			<img src="images/sai-kiran-anagani-61187.jpg" alt="Computer" width="500" height="350">
+			<img src="images/4.jpg" alt="Computer" width="500" height="350">
 			<figcaption>An image of code...</figcaption>
 		</figure>
 	</section>
 	<hr>
+
+	<!-- Links to other sites -->
+	<section id="links_section">
+		<h2>Useful Links</h2>
+		<ul>
+			<li><a href="https://www.google.se" target="_blank">Google</a></li>
+			<li><a href="https://github.com" target="_blank">GitHub</a></li>
+			<li><a href="http://www.sabaton.net/" target="_blank">Sabaton</a></li>
+			<li><a href="https://worldofwarcraft.com/en-us/" target="_blank">World of Warcraft</a></li>
+		</ul>
+	</section>
+	<hr>
+
 	<!-- Testimonials -->
-	<section>
-		<h2 id="testimonials_section">Testimonials</h2>
+	<section id="testimonials_section">
+		<h2>Testimonials</h2>
 		<article>
 			<header>
 				<h3>An artist!</h3>
@@ -93,20 +110,10 @@
 		</article>
 	</section>
 	<hr>
-	<!-- Links to other sites -->
-	<section>
-		<h2 id="links_section">Useful Links</h2>
-		<ul>
-			<li><a href="https://www.google.se" target="_blank">Google</a></li>
-			<li><a href="https://github.com" target="_blank">GitHub</a></li>
-			<li><a href="http://www.sabaton.net/" target="_blank">Sabaton</a></li>
-			<li><a href="https://worldofwarcraft.com/en-us/" target="_blank">World of Warcraft</a></li>
-		</ul>
-	</section>
-	<hr>
+
 	<!-- User comments form -->
-	<section>
-		<h2 id="comments_section">Leave a comment below</h2>
+	<section id="comments_section">
+		<h2>Leave a comment below</h2>
 		<form action="">
 			<div>
 				<input type="text" id="name" placeholder="Enter your name..." pattern="[A-Za-z]{3,}" title="Enter a name only containing letters. Must be atleast 3 characters" required>
@@ -124,13 +131,14 @@
 
 	<!-- Footer with contact info -->
 	<footer>
-		<nav>
-			<p id="contact_section">You can find me here: </p>
+		<nav id="contact_section">
+			<p>You can find me here: </p>
 			<ul>
 				<li><a href="https://github.com/MikaelFeher/" target="_blank">GitHub</a></li>
 				<li><a href="https://www.linkedin.com/in/mikael-feher-79b324105/" target="_blank">LinkedIn</a></li>
 			</ul>
 		</nav>
 	</footer>
+	<a href="#">Back to Top</a>
 </body>
 </html>
